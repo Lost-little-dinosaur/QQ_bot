@@ -1,7 +1,20 @@
-# zhuzhu
+# QQ-bot
 
-## How to start
+#### 使用酷Q框架，基于Python搭建的一个QQ机器人（在此感谢川川大佬的带领！）
 
-1. generate project using `nb create` .
-2. writing your plugins under `src/plugins` folder.
-3. run your bot using `nb run` .
+## 功能介绍
+
+1. 可以聊天
+2. 可以查天气
+3. 可以翻译
+4. 可以运行编程语言
+5. 可以防撤回
+6. 可以发小黄图
+7. 可以设定闹钟
+8. 可以点歌
+
+## 未来可能加入的功能
+
+1. 杭电信息的查询服务
+2. 抢红包服务
+3. 等等你可以想到的任何功能
