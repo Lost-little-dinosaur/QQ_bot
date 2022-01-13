@@ -1,2 +1,7 @@
-# QQ_bot
-使用酷Q框架，基于Python搭建的一个QQ机器人（在此感谢川川大佬的带领！）
+# zhuzhu
+
+## How to start
+
+1. generate project using `nb create` .
+2. writing your plugins under `src/plugins` folder.
+3. run your bot using `nb run` .
