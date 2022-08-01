@@ -152,7 +152,7 @@ go-cqhttp兼容[OneBot-v11](https://github.com/howmanybots/onebot/tree/master/v1
 | /can_send_record         | [检查是否可以发送语音] |
 | /get_version_info        | [获取版本信息]         |
 | /set_restart             | [重启 go-cqhttp]       |
-| /.handle_quick_operation | [对事件执行快速操作]   |
+| /.handle_quick_operation | [对事件执行快速操作]   |  
 
 [发送私聊消息]: https://github.com/howmanybots/onebot/blob/master/v11/specs/api/public.md#send_private_msg-%E5%8F%91%E9%80%81%E7%A7%81%E8%81%8A%E6%B6%88%E6%81%AF
 [发送群消息]: https://github.com/howmanybots/onebot/blob/master/v11/specs/api/public.md#send_group_msg-%E5%8F%91%E9%80%81%E7%BE%A4%E6%B6%88%E6%81%AF

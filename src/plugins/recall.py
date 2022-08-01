@@ -47,6 +47,7 @@ async def pro(bot: Bot, event: GroupRecallNoticeEvent, state: T_State):
     operator_id = event.get_user_id()
     if '撤回了消息' in str(die_mess):
         pass
-    elif str(operator_id) != '1755722996':
+    elif str(operator_id) != '1755722996' and str(operator_id) != '2965077320' and str(
+            operator_id) != '3144794112' and str(event.group_id) != '228089083':  # TODO:如果不在群里显示撤回，可以发给自己
         recall_message = die_mess['message']
         await recall.send(msg_handler(operator_id, recall_message))

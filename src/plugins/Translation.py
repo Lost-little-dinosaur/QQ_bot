@@ -21,7 +21,7 @@ async def _checker(bot: Bot, event: Event, state: T_State) -> bool:
     return isinstance(event, MessageEvent)
 
 
-tran = on_command('翻译', priority=59, rule=Rule(_checker))
+tran = on_command('翻译', rule=Rule(_checker))
 
 
 @tran.handle()
